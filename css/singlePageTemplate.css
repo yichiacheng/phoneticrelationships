@@ -71,20 +71,34 @@ ul li:hover a {
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
+.topic{
+  position: absolute;
+
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	font-weight: 200;
+  font-family: 'Gill Sans', 'sans-serif';
+  font-size:  1.8em;
+	
+}
 /* Hero Section */
 .hero {
-	background-color: #B3B3B3;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	background-color: #fff;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 .light {
-	font-weight: bold;
+	font-weight: 100;
 	color: #717070;
+	font-family: 'Gill Sans', 'sans-serif';
+	font-size:  0.75em;
 }
-.tagline {
+.name {
 	text-align: center;
-	color: #FFFFFF;
-	margin-top: 4px;
+	color: #090909;
+	margin-top: 8px;
+	font-size: 0.5em;
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -190,6 +204,8 @@ footer {
 footer .footer_column h3 {
 	color: #B3B3B3;
 	text-align: center;
+	font-family: "Gill Sans";
+	font-weight: normal
 }
 footer .footer_column p {
 	color: #717070;
