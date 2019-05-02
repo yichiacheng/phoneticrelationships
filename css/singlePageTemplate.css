@@ -210,8 +210,7 @@ footer .footer_column h3 {
 footer .footer_column p {
 	color: #717070;
 	text-align: center;
-	margin-left: 30px;
-	font-family: "Gill Sans";
+	font-family: 'Gill Sans';
 	background-color: #FFFFFF;
 }
 .cards {
@@ -223,7 +222,7 @@ footer .footer_column p {
 footer .footer_column p {
 	padding-left: 30px;
 	padding-right: 30px;
-	text-align: justify;
+	text-align: center;
 	line-height: 25px;
 	font-weight: lighter;
 	margin-left: 20px;
